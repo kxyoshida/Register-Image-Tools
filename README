@@ -1,0 +1,7 @@
+Read PolishedSpots of the alignement beads and make a table of paired distance.
+Find the five nearest beads. Sort the nearest distance in descending order so
+that beads in the sparse area will be on the top of the list. Compare the paired
+distance and x, y location in green and red tables and find the candidate
+pair. Then calculate the transform coefficients and evaluate the error. Remove
+the pair with which the error exceeds limit and re-calculate the transform
+coefficients
