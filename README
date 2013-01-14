@@ -5,3 +5,5 @@ distance and x, y location in green and red tables and find the candidate
 pair. Then calculate the transform coefficients and evaluate the error. Remove
 the pair with which the error exceeds limit and re-calculate the transform
 coefficients
+
+(15 Jan 2013) filteroutedge was modified to alow different picture size.

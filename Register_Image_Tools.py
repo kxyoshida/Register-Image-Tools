@@ -27,9 +27,7 @@ def calcpairdist(data):
    sparse = nearest[sparseind,:]
    return sparse
 
-def filteroutedge(sparse, limitd=0):
-   xmax=256
-   ymax=512
+def filteroutedge(sparse, limitd=0, xmax=256, ymax=512):
    output=zeros(13)
    for i in r_[:sparse.shape[0]]:
       x=sparse[i,1]
